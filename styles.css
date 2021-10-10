@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: cornsilk;
+    
+
+}
+body h1{
+    
+    font-size: 30px;
+    
+}
+
+
+.poke__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+  
+    
+}
+
+.poke__element {
+    text-transform: uppercase;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.205) 0px 7px 13px -3px, rgba(0, 0, 0, 0.062) 0px -3px 0px inset;
+    margin: 30px;
+    width: 300px;
+    height: 350px;
+    align-items: center; 
+
+
+}
+/* .poke__element ::marker{
+    
+} */
+
+.poke__list h2{
+    background-color: rgba(255, 255, 255, 0.288);
+    width: 70%;
+    text-align: center;
+    margin-left: 45px;
+    border-radius: 5px;
+}
+.poke__list img{
+    width: 60%;
+    align-content: center;
+    align-items: center;
+}
