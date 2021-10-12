@@ -5,10 +5,10 @@ const getPokemons = async() => {
     let dataPokemon = await pokeFetch.json();
     console.log(dataPokemon)
 
-    const pokemons = dataPokemon.results.map((element, idx) => ({
+    const pokemons = dataPokemon.results.map((element, img) => ({
         id: element.id,
         name: element.name,
-        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${idx+1}.png`
+        image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${img+1}.png`
 
     }))
     displayCharacters(pokemons)
@@ -26,3 +26,9 @@ const displayCharacters = (pokemons) => {
 
 }
 getPokemons();
+
+
+
+
+
+

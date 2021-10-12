@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+*{
+    padding:0px;
+}
 body {
     text-align: center;
     background-color: cornsilk;
-    
+    font-family: 'Bubblegum Sans', cursive;
+
 
 }
 body h1{
     
-    font-size: 30px;
+    font-size: 70px;
     
 }
 
@@ -17,38 +23,59 @@ body h1{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    text-decoration: none;
-  
+    list-style: none;
     
 }
-
+.poke__list ul{
+    margin-left: 0px;
+}
 .poke__element {
+    text-decoration: none;
     text-transform: uppercase;
-    background-color: cornflowerblue;
-    border: 2px solid black;
-    border-radius: 5px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(244,30,31,1) 100%);
+    border: 10px solid rgb(240, 240, 240);
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.205) 0px 7px 13px -3px, rgba(0, 0, 0, 0.062) 0px -3px 0px inset;
     margin: 30px;
-    width: 300px;
+    width: 250px;
     height: 350px;
     align-items: center; 
+    
 
 
 }
-/* .poke__element ::marker{
-    
-} */
+
 
 .poke__list h2{
-    background-color: rgba(255, 255, 255, 0.288);
+    
     width: 70%;
     text-align: center;
-    margin-left: 45px;
+    margin-left: 40px;
     border-radius: 5px;
 }
 .poke__list img{
     width: 60%;
     align-content: center;
     align-items: center;
+    margin-top: 10px;
+}
+.pokeAtk{
+    background-color: rgb(35, 136, 26);
+    width: 70%;
+    text-align: center;
+    margin-left: 37px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.pokeDef{
+    background-color: rgb(20, 142, 212);
+    width: 70%;
+    text-align: center;
+    margin-left: 37px;
+    margin-top:0px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
